@@ -1,0 +1,23 @@
+body
+{
+    background-color: azure;
+}
+
+h1
+{
+    color:blue;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+p{
+    color: green;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+iframe{
+    margin-left: 50px;
+    margin-top: 10px;
+}
