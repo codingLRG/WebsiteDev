@@ -1,11 +1,30 @@
 body
 {
-    background-color: azure;
+    background-color: whitesmoke;
 }
+
+:root{
+    --peach-yellow: #fcde9cff;
+    --russian-violet: #231651ff;
+    --pink-lavender: #efbdebff;
+    --paynes-gray: #5d737eff;
+    --steel-blue: #4d7ea8ff;
+}
+
+header {
+    background: var(--pink-lavender);
+    border: 5px solid var(--paynes-gray);
+  }
+  
+
+.center {
+    margin: auto;
+    text-align: center;
+  }
 
 h1
 {
-    color:blue;
+    color:var(--russian-violet);
     margin-left: 20px;
     margin-top: 10px;
 
