@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
 body
 {
-    background-color: whitesmoke;
+    background-color: var(--peach-yellow);
 }
 
 
@@ -16,6 +18,7 @@ body
 header {
     background: var(--pink-lavender);
     border: 5px solid var(--paynes-gray);
+    margin: 10px;
   }
   
 
@@ -26,15 +29,19 @@ header {
 
 h1
 {
+    font-family: 'Lato';
+    font-weight: 900;
+    font-size: 20px;
+    padding: 10px;
     color:var(--russian-violet);
-    margin-left: 20px;
-    margin-top: 10px;
+
 
 }
 
 p{
+    font-family: Arial, Helvetica, sans-serif;
     color: green;
-    margin-left: 20px;
+   
     margin-top: 10px;
 }
 
@@ -47,6 +54,7 @@ iframe{
     margin-top: 10px;
 }
 #links {
+
     top:60px;
     bottom:60px;
     left:20px;
@@ -56,13 +64,13 @@ iframe{
    }
 #links a,
 #links button {
- font-family:Muli;
+ font-family: 'Lato';
  letter-spacing:2px;
  font-weight:900;
  font-size:18px;
  display:inline-block;
  border:none;
- margin:0 4px;
+ margin:4px 4px 0;
  cursor:pointer;
  color:#fff;
  border-bottom-left-radius:10px;
