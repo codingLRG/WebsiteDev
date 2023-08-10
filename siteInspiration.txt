@@ -2,4 +2,6 @@ Websites to pull inspiration from:
 https://antibirth.com/ #overlapping over videos + buttons
 https://www.freecodecamp.org/news/how-to-create-a-portfolio-website-using-html-css-javascript-and-bootstrap/ #more header options + about me separation
 https://www.digitalocean.com/community/tutorials/css-pure-css-parallax #background effect will look nice
+https://blog.logrocket.com/create-parallax-scrolling-css/#why-use-parallax-scrolling-effect #better parallax
+https://plainenglish.io/blog/5-ways-to-detect-mobile-browsers-in-javascript #detect mobile phone
 
