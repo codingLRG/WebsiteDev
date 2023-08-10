@@ -25,10 +25,25 @@ body
 .nav-link:hover{
     color: var(--peach-yellow)
 }
-/* hero background image */
-.bgimage {
+
+.servicesBGImage{
     height:100vh;
-    background: url('Sources/cover-2580138b-1920w.webp');
+    background: url('Sources/Img3.png');
+    background-size:cover;
+    position:relative;
+}
+
+.aboutBGImage{
+    height:100vh;
+    background: url('Sources/Img2.png');
+    background-size:cover;
+    position:relative;
+}
+
+/* hero background image */
+.heroBGImage {
+    height:100vh;
+    background: url('Sources/Img1.png');
     background-size:cover;
     position:relative;
 }
