@@ -27,25 +27,61 @@ body
 }
 
 .servicesBGImage{
+
+    /*
     height:100vh;
     background: url('Sources/Img3.png');
     background-size:cover;
     position:relative;
+    */
+    background-attachment: fixed;
+
+    background-image: url(Sources/Img3.png);
+    background-position: center;
+    background-size: cover;
+    
+    row-gap: 2rem;
+  
+    text-align: center;
+}
+
+.text-center{
+    padding: 4rem 0;
 }
 
 .aboutBGImage{
-    height:100vh;
+    /*height:100vh;
     background: url('Sources/Img2.png');
     background-size:cover;
     position:relative;
+    */
+    background-attachment: fixed;
+
+    background-image: url(Sources/Img2.png);
+    background-position: center;
+    background-size: cover;
+    
+    row-gap: 4rem;
+  
+    text-align: center;
 }
 
 /* hero background image */
 .heroBGImage {
-    height:100vh;
+    /*height:100vh;
     background: url('Sources/Img1.png');
     background-size:cover;
     position:relative;
+    */
+    background-attachment: fixed;
+    height:100vh;
+    background-image: url(Sources/Img1.png);
+    background-position: center;
+    background-size: cover;
+    
+    row-gap: 4rem;
+  
+    text-align: center;
 }
 /* text css above hero image*/
 .hero_title {
@@ -102,8 +138,21 @@ body
     background-color: var(--paynes-gray);
 }
 
-/* spacing on all sections */
+/* spacing on all sections
 #about, #services{
     margin-top: 4rem;
     padding-top: 4rem;
 }
+ */
+/* Parallaxing */
+.buffer {
+    width: 100%;
+    min-height: 4rem;
+    background-color: var(--steel-blue);
+  }
+
+  @media only screen and (max-device-width: 1366px) {
+    .aboutBGImage, .heroBGImage, .servicesBGImage {
+      background-attachment: scroll;
+    }
+  } 
