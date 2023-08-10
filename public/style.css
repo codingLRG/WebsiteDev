@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
-body
-{
-    background-color: var(--peach-yellow);
-}
-
-
-
 :root{
     --peach-yellow: #fcde9cff;
     --russian-violet: #231651ff;
@@ -15,92 +8,87 @@ body
     --steel-blue: #4d7ea8ff;
 }
 
-header {
-    background: var(--pink-lavender);
-    border: 5px solid var(--paynes-gray);
-    margin: 10px;
-  }
-  
-
-.center {
-    margin: auto;
-    text-align: center;
-  }
-
-h1
+body
 {
-    font-family: 'Lato';
-    font-weight: 900;
-    font-size: 20px;
-    padding: 10px;
+    
+    background-color: var(--pink-lavender);
+}
+
+.text-primary{
+    color: var(--russian-violet)
+}
+
+.nav-link {
     color:var(--russian-violet);
-
-
 }
 
-p{
-    font-family: Arial, Helvetica, sans-serif;
-    color: green;
-   
-    margin-top: 10px;
+.nav-link:hover{
+    color: var(--peach-yellow)
+}
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('Sources/cover-2580138b-1920w.webp');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--russian-violet);
 }
 
-body{
-    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
 }
 
-iframe{
-    margin-left: 50px;
-    margin-top: 10px;
-}
-#links {
-
-    top:60px;
-    bottom:60px;
-    left:20px;
-    width:100%;
-    text-align:left;
-    z-index:100
-   }
-#links a,
-#links button {
- font-family: 'Lato';
- letter-spacing:2px;
- font-weight:900;
- font-size:18px;
- display:inline-block;
- border:none;
- margin:4px 4px 0;
- cursor:pointer;
- color:#fff;
- border-bottom-left-radius:10px;
- border-bottom-right-radius:10px;
- border-top-left-radius: 10px;
- border-top-right-radius: 10px;
- background:-webkit-linear-gradient(var(--paynes-gray),var(--steel-blue));
- background:-moz-linear-gradient(var(--paynes-gray),var(--steel-blue));
- background:linear-gradient(var(--paynes-gray),var(--steel-blue));
- padding:8px 20px
-}
-#links a:hover,
-#links button:hover {
- background:-webkit-linear-gradient(rgba(200,60,60,.4),rgba(200,60,60,.8));
- background:-moz-linear-gradient(rgba(200,60,60,.4),rgba(200,60,60,.8));
- background:linear-gradient(rgba(200,60,60,.4),rgba(200,60,60,.8))
+.col-lg-8
+{
+    color: var(--russian-violet)
 }
 
-#logo {
-    left:0;
-    top:-30px;
-    z-index:1;
-    -webkit-animation:logo 1s ease-in-out infinite alternate;
-    animation:logo 1s ease-in-out infinite alternate;
-   }
-   @keyframes logo {
-    from {
-     transform:translateY(0)
-    }
-    to {
-     transform:translateY(20px)
-    }
-   }
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: var(--russian-violet);
+}
+.servicesText:hover {
+    border: 2px solid var(--russian-violet);
+}
+
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: var(--paynes-gray);
+}
+
+.sticky-top{
+    background-color: var(--paynes-gray);
+}
+
+/* spacing on all sections */
+#about, #services{
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
