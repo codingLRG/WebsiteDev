@@ -26,6 +26,14 @@ body
     color: var(--peach-yellow)
 }
 
+.parallaxBG{
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+    row-gap: 4rem;
+}
+
 .servicesBGImage{
 
     /*
@@ -36,7 +44,7 @@ body
     */
     background-attachment: fixed;
 
-    background-image: url(Sources/Img3.png);
+    
     background-position: center;
     background-size: cover;
     
@@ -49,12 +57,14 @@ body
     padding: 4rem 0;
 }
 
+/* outdated
+
 .aboutBGImage{
-    /*height:100vh;
+    height:100vh;
     background: url('Sources/Img2.png');
     background-size:cover;
     position:relative;
-    */
+    
     background-attachment: fixed;
 
     background-image: url(Sources/Img2.png);
@@ -62,17 +72,15 @@ body
     background-size: cover;
     
     row-gap: 4rem;
-  
-    text-align: center;
 }
 
-/* hero background image */
+ //hero background image 
 .heroBGImage {
-    /*height:100vh;
+    height:100vh;
     background: url('Sources/Img1.png');
     background-size:cover;
     position:relative;
-    */
+    
     background-attachment: fixed;
     height:100vh;
     background-image: url(Sources/Img1.png);
@@ -83,6 +91,9 @@ body
   
     text-align: center;
 }
+
+end of outdated */
+  
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
